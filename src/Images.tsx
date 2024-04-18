@@ -22,7 +22,7 @@ const Images: FC<ImagesProps> = (props) => {
           key={index}
           className='image'
         >
-          <img src={slide.src} />
+          <img src={slide.src} loading="lazy"/>
         </div>
       ))}
     </div>
