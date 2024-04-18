@@ -3,8 +3,6 @@ import { FC } from 'react';
 interface ImagesProps {
   data: {
     src: string;
-    title: string;
-    description: string;
   }[];
   onClick: (index: number) => void;
 }
@@ -24,7 +22,7 @@ const Images: FC<ImagesProps> = (props) => {
           key={index}
           className='image'
         >
-          <img src={slide.src} alt={slide.description} />
+          <img src={slide.src} />
         </div>
       ))}
     </div>
