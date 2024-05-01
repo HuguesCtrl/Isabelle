@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
   margin: 0;
 }
 
@@ -25,30 +25,31 @@ body{
   border-radius: 8px;
 }
 
-.header,.footer{
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+.header,
+.footer {
+  background-color: orange;
   color: white;
   padding: 15px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
-.header h3{
+.header h3 {
   font-weight: 300;
   font-size: 0.8em;
 }
 
-h2{
+h2 {
   font-style: italic;
   font-weight: 200;
   margin-top: 0;
 }
 
-h1{
+h1 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-h3 img{
+h3 img {
   vertical-align: middle;
 }
