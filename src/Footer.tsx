@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <div className="footer">
-        <p>© copyright 2024</p>
+      <p>© Hugues Collet</p>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
